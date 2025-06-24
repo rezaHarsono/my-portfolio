@@ -116,7 +116,7 @@ export const ProjectsSection = () => {
                 <p className="text-muted-foreground text-sm mb-4"> {project.description} </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a href={project.url} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                    <a href={project.url} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300 rounded-full">
                       <ExternalLink size={20} />
                     </a>
                     <a href={project.github} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
@@ -129,7 +129,7 @@ export const ProjectsSection = () => {
           ))}
         </div>
         <div className="text-center mt-12">
-          <a href="https://github.com/rezaHarsono" target="_blank" className="cosmic-button text-blue-900 w-fit flex items-center mx-auto gap-2">
+          <a href="https://github.com/rezaHarsono" target="_blank" className="cosmic-button text-black w-fit flex items-center mx-auto gap-2">
             Check My Github <ArrowRight size={16} />
           </a>
         </div>

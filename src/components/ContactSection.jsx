@@ -39,7 +39,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Phone</h4>
-                  <a className="text-muted-foreground hover:text-primary transition-colors duration-300" href="mailto:reza220304@gmail.com">
+                  <a className="text-muted-foreground hover:text-primary transition-colors duration-300" target="_blank" href="https://wa.me/6281286965014">
                     +62812-8696-5014
                   </a>
                 </div>

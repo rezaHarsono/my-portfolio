@@ -18,7 +18,7 @@ export const HeroSection = () => {
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#projects" className="cosmic-button text-blue-900">
+            <a href="#projects" className="cosmic-button text-black">
               View My Works
             </a>
           </div>
